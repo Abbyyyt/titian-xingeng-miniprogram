@@ -43,6 +43,20 @@
 			}
 		},
 		{
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		},
+
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		
+		{
 			"path": "pages/government/complaint",
 			"style": {
 				"navigationBarTitleText": "政府服务投诉"

@@ -74,11 +74,11 @@
         <text class="iconfont">🌐</text>
         <text class="tabbar-text">首页</text>
       </view>
-      <view class="tabbar-item" :class="{active: currentTab==='index'}" @click="switchTab('index')">
+      <view class="tabbar-item" :class="{active: currentTab==='shop'}" @click="switchTab('shop')">
         <text class="iconfont">🛍️</text>
         <text class="tabbar-text">商城</text>
       </view>
-      <view class="tabbar-item" :class="{active: currentTab==='focus'}" @click="switchTab('focus')">
+      <view class="tabbar-item" :class="{active: currentTab==='activity'}" @click="switchTab('activity')">
         <text class="iconfont">⏳</text>
         <text class="tabbar-text">活动</text>
       </view>
@@ -103,8 +103,8 @@ export default {
       this.currentTab = tab;
       let url = '';
       if(tab==='home') url = '/pages/home/home';
-      else if(tab==='index') url = '/pages/index/index';
-      else if(tab==='focus') url = '/pages/focus/focus';
+      else if(tab==='shop') url = '/pages/shop/shop';
+      else if(tab==='activity') url = '/pages/activity/activity';
       else if(tab==='profile') url = '/pages/profile/profile';
       uni.navigateTo({ url });
     },

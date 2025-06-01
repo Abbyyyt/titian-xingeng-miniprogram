@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 整个页面根：背景层 + 内容层 */
+.focus-bg.data-v-00316766 {
+  position: relative;
+  min-height: 100vh;
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+/* 背景图片（全屏，模糊） */
+.bg-img.data-v-00316766 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  z-index: 1;
+}
+/* 半透明渐变遮罩，避免背景过于刺眼 */
+.bg-gradient.data-v-00316766 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.6)
+  );
+  z-index: 2;
+}
+/* 内容层：在背景上方显示，留出导航栏高度 */
+.content-wrapper.data-v-00316766 {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px; /* 底部导航栏高度 */
+}
+/* 主标题 Banner */
+.banner.data-v-00316766 {
+  margin-top: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.banner-line.data-v-00316766 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow:
+    -1px -1px 0 #2a5d00,
+     1px -1px 0 #2a5d00,
+    -1px  1px 0 #2a5d00,
+     1px  1px 0 #2a5d00;
+  margin: 4px 0;
+  text-align: center;
+}
+/* 功能模块六宫格 */
+.features-grid.data-v-00316766 {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 16px;
+  justify-content: space-between;
+}
+.feature-item.data-v-00316766 {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.feature-icon.data-v-00316766 {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 8px;
+}
+.feature-label.data-v-00316766 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+/* 底部导航栏：固定在视口底部 */
+.tabbar.data-v-00316766 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  background: rgba(40, 40, 40, 0.85);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 4;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.tabbar-item.data-v-00316766 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 13px;
+}
+.tabbar-item.active.data-v-00316766 {
+  color: #3a8cff;
+}
+.iconfont.data-v-00316766 {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+.tabbar-text.data-v-00316766 {
+  font-size: 13px;
+}
+

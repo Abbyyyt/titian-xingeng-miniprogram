@@ -224,16 +224,16 @@ var _default = {
     };
   },
   methods: {
-    goFocus: function goFocus() {
+    goactivity: function goactivity() {
       uni.navigateTo({
-        url: '/pages/focus/focus'
+        url: '/pages/activity/activity'
       });
     },
     switchTab: function switchTab(tab) {
       if (tab === this.currentTab) return;
       this.currentTab = tab;
       var url = '';
-      if (tab === 'home') url = '/pages/home/home';else if (tab === 'index') url = '/pages/index/index';else if (tab === 'focus') url = '/pages/focus/focus';else if (tab === 'profile') url = '/pages/profile/profile';
+      if (tab === 'home') url = '/pages/home/home';else if (tab === 'shop') url = '/pages/shop/shop';else if (tab === 'activity') url = '/pages/activity/activity';else if (tab === 'profile') url = '/pages/profile/profile';
       uni.navigateTo({
         url: url
       });
