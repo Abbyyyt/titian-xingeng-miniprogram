@@ -1,8 +1,0 @@
-<view class="container">
-  <image class="bg-image" src="/images/terrace.jpg" mode="aspectFill"></image>
-  <view class="content">
-    <view class="welcome-text">WELCOME TO</view>
-    <view class="title">梯田心耕</view>
-    <button class="start-btn" bindtap="onStartClick">开启种植专注之旅</button>
-  </view>
-</view> 
