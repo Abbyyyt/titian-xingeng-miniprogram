@@ -1,0 +1,123 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+/* 顶部区域样式 */
+.header {
+  position: relative;
+  width: 100%;
+  height: 45vh;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  padding: 40rpx;
+  color: white;
+}
+
+.time {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+
+.status-bar {
+  position: absolute;
+  top: 40rpx;
+  right: 40rpx;
+  display: flex;
+  align-items: center;
+}
+
+.signal {
+  font-size: 28rpx;
+  margin-right: 20rpx;
+}
+
+.battery {
+  width: 40rpx;
+  height: 20rpx;
+  border: 2rpx solid white;
+  border-radius: 4rpx;
+}
+
+.title-container {
+  margin-top: 160rpx;
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 48rpx;
+  font-weight: 500;
+  margin-bottom: 20rpx;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 72rpx;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* 登录表单区域样式 */
+.login-container {
+  flex: 1;
+  padding: 60rpx 40rpx;
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  margin-top: -40rpx;
+}
+
+.login-title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 60rpx;
+}
+
+.form-item {
+  margin-bottom: 40rpx;
+}
+
+.label {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.input {
+  width: 100%;
+  height: 100rpx;
+  background: #f5f5f5;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  font-size: 32rpx;
+}
+
+.login-btn {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background: #8DC7BD;
+  color: white;
+  border-radius: 50rpx;
+  font-size: 36rpx;
+  margin-top: 80rpx;
+  border: none;
+}
+
+.login-btn::after {
+  border: none;
+} 

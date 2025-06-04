@@ -1,0 +1,243 @@
+.container {
+  min-height: 100vh;
+  background-color: #C5D86D;
+  padding: 0;
+}
+
+/* 导航栏 */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60rpx 30rpx 20rpx;
+}
+
+.back-icon {
+  font-size: 40rpx;
+  color: #333;
+}
+
+.title {
+  font-size: 34rpx;
+  color: #333;
+  font-weight: 500;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+}
+
+.more-icon, .share-icon {
+  font-size: 36rpx;
+  color: #333;
+}
+
+/* 主标题区域 */
+.title-area {
+  padding: 20rpx 40rpx;
+}
+
+.huge-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.huge-title text {
+  font-size: 100rpx;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 2rpx;
+  text-shadow: 2rpx 2rpx 0 #fff;
+}
+
+.join-text {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  font-size: 28rpx;
+}
+
+/* 中间大卡片 */
+.main-card {
+  margin: 30rpx;
+  background: linear-gradient(135deg, #4CAF50 0%, #45A049 100%);
+  border-radius: 30rpx;
+  padding: 40rpx;
+  position: relative;
+  height: 377rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.study-person {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  left: 0;
+  top: 20rpx;
+}
+
+.focus-num {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8rpx 20rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #333;
+  z-index: 1;
+}
+
+/* 精选房间区域 */
+.rooms-section {
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 40rpx 30rpx;
+  margin-top: 20rpx;
+}
+
+.rooms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+  padding: 0 10rpx;
+}
+
+.rooms-title {
+  font-size: 36rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.rank-btn {
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+
+.rank-triangle {
+  font-size: 20rpx;
+  color: #666;
+  transform: rotate(45deg);
+}
+
+/* 房间列表 */
+.rooms-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30rpx;
+}
+
+.room-card {
+  display: flex;
+  gap: 20rpx;
+  position: relative;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+
+.room-pic {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 16rpx;
+}
+
+.room-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.room-name {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 500;
+}
+
+.room-time {
+  font-size: 24rpx;
+  color: #666;
+  margin: 10rpx 0;
+}
+
+.room-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.label {
+  padding: 6rpx 16rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+}
+
+.study-label {
+  background-color: #FFF3DC;
+  color: #FFB02E;
+}
+
+.reward-label {
+  background-color: #E8F3E8;
+  color: #4CAF50;
+}
+
+.member-num {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6rpx 16rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  color: #666;
+  box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.1);
+}
+
+/* 底部统计样式 */
+.bottom-stats {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30rpx;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+
+.stats-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-value {
+  font-size: 40rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.stats-label {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 4rpx;
+}
+
+.arrow {
+  font-size: 32rpx;
+} 

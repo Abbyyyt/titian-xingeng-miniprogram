@@ -1,0 +1,66 @@
+<view class="container">
+  <!-- 顶部导航栏 -->
+  <view class="nav-bar">
+    <view class="back-btn" bindtap="goBack">
+      <text>←</text>
+    </view>
+    <view class="title">我的耕田</view>
+  </view>
+
+  <!-- 累计耕作卡片 -->
+  <view class="stats-card">
+    <view class="card-title">累计耕作</view>
+    <view class="stats-grid">
+      <view class="stat-item">
+        <text class="stat-label">次数</text>
+        <text class="stat-value">21次</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-label">时长</text>
+        <text class="stat-value">8h25min</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-label">日均时长</text>
+        <text class="stat-value">1h51min</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 今日耕作卡片 -->
+  <view class="stats-card">
+    <view class="card-title">今日耕作</view>
+    <view class="stats-grid">
+      <view class="stat-item">
+        <text class="stat-label">次数</text>
+        <text class="stat-value">1次</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-label">时长</text>
+        <text class="stat-value">25min</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-label">耕作失败</text>
+        <text class="stat-value">0次</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 专注时长分布 -->
+  <view class="focus-distribution">
+    <view class="distribution-header">
+      <view class="date-info">
+        <text class="date">04.09 2025</text>
+      </view>
+      <view class="total-hours">
+        <text class="hours-num">8.4</text>
+        <text class="hours-unit">小时</text>
+      </view>
+    </view>
+
+    <!-- 3D农田展示 -->
+    <view class="farm-display">
+      <image class="farm-3d" src="/images/farm-3d.png" mode="aspectFit"></image>
+      </view>
+      <view class="chart-subtitle">本月耕作时段分布</view>
+  </view>
+</view> 
