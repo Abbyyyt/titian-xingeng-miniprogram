@@ -1,0 +1,177 @@
+.container {
+  height: 100vh;
+  padding: 0 30rpx;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  filter: blur(1px);
+  transform: scale(1.1);
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.5) 100%);
+  z-index: -1;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 0;
+  color: #333;
+}
+
+.back-btn {
+  font-size: 40rpx;
+  color: #000;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #000;
+}
+
+.right-icons {
+  display: flex;
+  gap: 20rpx;
+  font-size: 36rpx;
+}
+
+.sound-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 40rpx 0;
+}
+
+.sound-btn {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.sound-btn.active {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+}
+
+.plant-container {
+  width: 240rpx;
+  height: 240rpx;
+  margin: 60rpx auto;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+}
+
+.plant-image {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.timer-display {
+  text-align: center;
+  margin: 40rpx 0;
+}
+
+.timer-text {
+  font-size: 80rpx;
+  font-weight: 500;
+  color: #000;
+}
+
+.status-text {
+  display: block;
+  font-size: 48rpx;
+  color: #333;
+  margin-top: 20rpx;
+  font-weight: 500;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40rpx;
+  margin: 60rpx 0;
+}
+
+.control-btn {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-btn.start {
+  width: 120rpx;
+  height: 120rpx;
+  background: #FF6B6B;
+}
+
+.start-icon {
+  width: 0;
+  height: 0;
+  border-left: 30rpx solid #fff;
+  border-top: 20rpx solid transparent;
+  border-bottom: 20rpx solid transparent;
+  margin-left: 8rpx;
+}
+
+.pause-icon {
+  display: flex;
+  gap: 10rpx;
+}
+
+.pause-icon::before,
+.pause-icon::after {
+  content: "";
+  width: 8rpx;
+  height: 30rpx;
+  background: #fff;
+}
+
+.stop-icon {
+  width: 24rpx;
+  height: 24rpx;
+  background: #666;
+}
+
+.reward-hint {
+  text-align: center;
+  color: #333;
+  font-size: 24rpx;
+}
+
+.sub-text {
+  display: block;
+  margin-top: 10rpx;
+  color: #666;
+} 

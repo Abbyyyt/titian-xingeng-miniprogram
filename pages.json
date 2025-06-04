@@ -1,73 +1,22 @@
 {
-	"pages": [
-		{
-			"path": "pages/welcome/welcome",
-			"style": {
-				"navigationBarTitleText": "梯田心耕",
-				"navigationStyle": "custom",
-				"backgroundColor": "#ffffff"
-			}
-		},
-		{
-			"path": "pages/login/login",
-			"style": {
-				"navigationBarTitleText": "登录",
-				"navigationStyle": "custom",
-				"backgroundColor": "#ffffff"
-			}
-		},
-		{
-			"path": "pages/home/home",
-			"style": {
-				"navigationBarTitleText": "我的梯田",
-				"navigationStyle": "custom",
-				"backgroundColor": "#f5fcd7"
-			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		},
-		{
-			"path": "pages/focus/focus",
-			"style": {
-				"navigationBarTitleText": "专注计划"
-			}
-		},
-		{
-			"path": "pages/profile/profile",
-			"style": {
-				"navigationBarTitleText": "个人中心"
-			}
-		},
-		{
-			"path": "pages/activity/activity",
-			"style": {
-				"navigationBarTitleText": "活动"
-			}
-		},
-
-		{
-			"path": "pages/shop/shop",
-			"style": {
-				"navigationBarTitleText": "商城"
-			}
-		},
-		
-		{
-			"path": "pages/government/complaint",
-			"style": {
-				"navigationBarTitleText": "政府服务投诉"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"uniIdRouter": {}
-}
+  "pages": [
+    "pages/home/home",
+    "pages/focus-plan/focus-plan",
+    "pages/focus-timer/focus-timer",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/planting-room/planting-room",
+    "pages/terrace-detail/terrace-detail",
+    "pages/vr-view/vr-view"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": {
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json"
+} 

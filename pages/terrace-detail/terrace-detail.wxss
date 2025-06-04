@@ -1,0 +1,175 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgb(198, 228, 157) 0%, rgb(157, 227, 85) 100%);
+  padding: 20rpx 40rpx;
+}
+
+/* 导航栏样式 */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 60rpx 0 40rpx;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  left: 0;
+}
+
+.back-btn text {
+  font-size: 44rpx;
+  color: #000;
+}
+
+.title {
+  width: 100%;
+  color: #000000;
+  font-size: 44rpx;
+  font-weight: 500;
+  text-align: center;
+}
+
+.right-btns {
+  display: flex;
+  gap: 20rpx;
+}
+
+.right-btns text {
+  font-size: 40rpx;
+}
+
+/* 统计卡片样式 */
+.stats-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.card-title {
+  font-size: 28rpx;
+  color: #666666;
+  margin-bottom: 30rpx;
+  padding-left: 10rpx;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stat-label {
+  font-size: 26rpx;
+  color: #999999;
+  margin-bottom: 12rpx;
+}
+
+.stat-value {
+  font-size: 36rpx;
+  color: #4a7810;
+  font-weight: 600;
+}
+
+/* 专注时长分布样式 */
+.focus-distribution {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24rpx;
+  padding: 0 0 1rpx;
+  margin-top: 2rpx;
+}
+
+.distribution-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  padding: 16rpx 0 0;
+  height: 40rpx;
+}
+
+.date-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8rpx;
+  padding-top: 20rpx;
+}
+
+.date {
+  font-size: 38rpx;
+  color: #999999;
+  font-weight: 500;
+  line-height: 0.7;
+}
+
+.total-hours {
+  text-align: right;
+  line-height: 0.7;
+  padding-right: 8rpx;
+  padding-top: 6rpx;
+}
+
+.hours-num {
+  font-size: 56rpx;
+  color: #4a7810;
+  font-weight: bold;
+  line-height: 0.7;
+  margin-top: -4rpx;
+}
+
+.hours-unit {
+  font-size: 28rpx;
+  color: #999999;
+  margin-left: 6rpx;
+  line-height: 0.7;
+}
+
+/* 3D农田展示样式 */
+.farm-display {
+  width: 100%;
+  height: 1000rpx;
+  margin: -115rpx 0 -70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.farm-3d {
+  width: 160%;
+  height: 160%;
+  object-fit: cover;
+}
+
+/* 图表容器样式 */
+.chart-container {
+  width: 100%;
+  height: 200rpx;
+  margin: 10rpx 0;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 10rpx;
+}
+
+.chart-title {
+  font-size: 36rpx;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -210rpx;
+}
+
+.chart-subtitle {
+  font-size: 26rpx;
+  color: #999999;
+  text-align: center;
+  margin: -90rpx 0 2rpx;
+  line-height: 0.7;
+} 

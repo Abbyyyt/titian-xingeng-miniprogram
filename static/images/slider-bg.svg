@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 600 160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="terraceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#9DE355;stop-opacity:0.1"/>
+            <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0.1"/>
+        </linearGradient>
+        <pattern id="terraceLines" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+            <path d="M0 0 L600 0" stroke="#9DE355" stroke-width="2" stroke-opacity="0.2"/>
+            <path d="M0 20 L600 20" stroke="#9DE355" stroke-width="2" stroke-opacity="0.2"/>
+            <path d="M0 40 L600 40" stroke="#9DE355" stroke-width="2" stroke-opacity="0.2"/>
+        </pattern>
+    </defs>
+    
+    <!-- 背景 -->
+    <rect width="100%" height="100%" fill="url(#terraceGradient)"/>
+    <rect width="100%" height="100%" fill="url(#terraceLines)"/>
+    
+    <!-- 进度条背景 -->
+    <rect x="80" y="70" width="440" height="20" rx="10" fill="#FFD700"/>
+    
+    <!-- 拖拉机图标位置 -->
+    <circle cx="60" cy="80" r="20" fill="#4CAF50" opacity="0.2"/>
+    
+    <!-- 房子图标位置 -->
+    <circle cx="540" cy="80" r="20" fill="#4CAF50" opacity="0.2"/>
+</svg> 
